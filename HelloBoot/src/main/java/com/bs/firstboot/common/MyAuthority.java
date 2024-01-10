@@ -1,5 +1,5 @@
 package com.bs.firstboot.common;
 
 public enum MyAuthority {
-	ADMIN,USER
+	ADMIN,USER,HR,PR
 }

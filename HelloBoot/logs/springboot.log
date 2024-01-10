@@ -1,23 +1,176 @@
-2023-12-21T09:28:20.202+09:00  INFO 10320 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Starting HelloBootApplication using Java 17.0.8.1 with PID 10320 (E:\GDJ71\sharedata\framework\springboot\bootwork\HelloBoot\target\classes started by goodee in E:\GDJ71\sharedata\framework\springboot\bootwork\HelloBoot)
-2023-12-21T09:28:20.203+09:00 DEBUG 10320 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Running with Spring Boot v3.2.0, Spring v6.1.1
-2023-12-21T09:28:20.203+09:00  INFO 10320 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : No active profile set, falling back to 1 default profile: "default"
-2023-12-21T09:28:20.298+09:00  INFO 10320 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-12-21T09:28:20.301+09:00  INFO 10320 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-2023-12-21T09:28:20.352+09:00  INFO 10320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2023-12-21T09:28:20.352+09:00  INFO 10320 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-12-21T09:28:20.352+09:00  INFO 10320 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
-2023-12-21T09:28:20.398+09:00  INFO 10320 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2023-12-21T09:28:20.401+09:00  INFO 10320 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-12-21T09:28:20.401+09:00  INFO 10320 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 197 ms
-2023-12-21T09:28:20.446+09:00  INFO 10320 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-12-21T09:28:20.489+09:00  INFO 10320 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
-2023-12-21T09:28:20.489+09:00  WARN 10320 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2023-12-21T09:28:20.534+09:00  INFO 10320 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection oracle.jdbc.driver.T4CConnection@5e02efed
-2023-12-21T09:28:20.534+09:00  INFO 10320 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
-2023-12-21T09:28:20.545+09:00  INFO 10320 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-12-21T09:28:20.554+09:00  INFO 10320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2023-12-21T09:28:20.557+09:00  INFO 10320 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Started HelloBootApplication in 0.387 seconds (process running for 972.066)
-2023-12-21T09:28:20.558+09:00  INFO 10320 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2023-12-21T09:35:41.444+09:00  INFO 10320 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2023-12-21T09:35:41.451+09:00  INFO 10320 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
-2023-12-21T09:35:41.457+09:00  INFO 10320 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2023-12-28T15:25:35.923+09:00  INFO 19728 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Starting HelloBootApplication using Java 17.0.8.1 with PID 19728 (C:\Users\goodee\git\repository3\HelloBoot\target\classes started by goodee in C:\Users\goodee\git\repository3\HelloBoot)
+2023-12-28T15:25:35.927+09:00 DEBUG 19728 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Running with Spring Boot v3.2.0, Spring v6.1.1
+2023-12-28T15:25:35.935+09:00  INFO 19728 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-12-28T15:25:35.972+09:00  INFO 19728 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\goodee\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.3.0.23.09\ojdbc11-23.3.0.23.09.jar referenced one or more files that do not exist: file:/C:/Users/goodee/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.3.0.23.09/oraclepki.jar
+2023-12-28T15:25:35.973+09:00  INFO 19728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-28T15:25:35.973+09:00  INFO 19728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-28T15:25:36.471+09:00  INFO 19728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-12-28T15:25:36.487+09:00  INFO 19728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-12-28T15:25:37.046+09:00  INFO 19728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2023-12-28T15:25:37.053+09:00  INFO 19728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-28T15:25:37.055+09:00  INFO 19728 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-28T15:25:37.099+09:00  INFO 19728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-28T15:25:37.099+09:00  INFO 19728 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1126 ms
+2023-12-28T15:25:37.383+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.384+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : encoder
+2023-12-28T15:25:37.384+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.499+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.499+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : authenticationPath
+2023-12-28T15:25:37.499+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.510+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.510+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : registerWebSocketHandlers
+2023-12-28T15:25:37.510+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.555+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.556+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : addInterceptors
+2023-12-28T15:25:37.556+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.556+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.556+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : loggerInter
+2023-12-28T15:25:37.556+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.562+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.562+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : addCorsMappings
+2023-12-28T15:25:37.562+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.608+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.609+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : addViewControllers
+2023-12-28T15:25:37.609+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.755+09:00  INFO 19728 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f18b33, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55624635, org.springframework.security.web.context.SecurityContextHolderFilter@888409f, org.springframework.security.web.header.HeaderWriterFilter@686e75b9, org.springframework.web.filter.CorsFilter@d6e374f, org.springframework.security.web.authentication.logout.LogoutFilter@75c194d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3678c493, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7fc3129b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@45fbd002, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e652794, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ba2f818, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a5c739d, org.springframework.security.web.access.ExceptionTranslationFilter@6db67be1, org.springframework.security.web.access.intercept.AuthorizationFilter@4ed5fb22]
+2023-12-28T15:25:37.772+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.773+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : member
+2023-12-28T15:25:37.773+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.779+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ============ befor aop ===========
+2023-12-28T15:25:37.779+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : handlerExceptionResolver2
+2023-12-28T15:25:37.779+09:00 DEBUG 19728 --- [restartedMain] c.bs.firstboot.common.aop.LoggerAspect   : ===================================
+2023-12-28T15:25:37.893+09:00  WARN 19728 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-12-28T15:25:37.989+09:00  INFO 19728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-28T15:25:38.298+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection opened. {executed in 301ms} 
+2023-12-28T15:25:38.298+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection.new Connection returned 
+2023-12-28T15:25:38.298+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection.getNetworkTimeout() returned 0
+2023-12-28T15:25:38.299+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.299+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.299+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection.isValid(1) returned true
+2023-12-28T15:25:38.300+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection.getTransactionIsolation() returned 2
+2023-12-28T15:25:38.300+09:00  INFO 19728 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@4a4798f
+2023-12-28T15:25:38.302+09:00  INFO 19728 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-28T15:25:38.306+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@54b00f68
+2023-12-28T15:25:38.313+09:00  INFO 19728 --- [restartedMain] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2023-12-28T15:25:38.448+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection opened. {executed in 39ms} 
+2023-12-28T15:25:38.448+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.new Connection returned 
+2023-12-28T15:25:38.448+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.449+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 2. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.454+09:00  INFO 19728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-28T15:25:38.478+09:00  INFO 19728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2023-12-28T15:25:38.486+09:00  INFO 19728 --- [restartedMain] com.bs.firstboot.HelloBootApplication    : Started HelloBootApplication in 2.879 seconds (process running for 3.424)
+2023-12-28T15:25:38.510+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection opened. {executed in 38ms} 
+2023-12-28T15:25:38.510+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.new Connection returned 
+2023-12-28T15:25:38.510+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.510+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 3. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.561+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection opened. {executed in 39ms} 
+2023-12-28T15:25:38.561+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.new Connection returned 
+2023-12-28T15:25:38.561+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.561+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 4. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.621+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection opened. {executed in 37ms} 
+2023-12-28T15:25:38.622+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.new Connection returned 
+2023-12-28T15:25:38.622+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.622+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 5. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.672+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection opened. {executed in 37ms} 
+2023-12-28T15:25:38.672+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.new Connection returned 
+2023-12-28T15:25:38.672+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.672+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 6. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.736+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection opened. {executed in 41ms} 
+2023-12-28T15:25:38.736+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.new Connection returned 
+2023-12-28T15:25:38.736+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.736+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 7. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.797+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection opened. {executed in 39ms} 
+2023-12-28T15:25:38.797+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.new Connection returned 
+2023-12-28T15:25:38.798+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.798+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 8. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.860+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection opened. {executed in 38ms} 
+2023-12-28T15:25:38.860+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.new Connection returned 
+2023-12-28T15:25:38.860+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.860+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 9. Connection.getAutoCommit() returned true
+2023-12-28T15:25:38.909+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection opened. {executed in 37ms} 
+2023-12-28T15:25:38.910+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.new Connection returned 
+2023-12-28T15:25:38.910+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.isReadOnly() returned false
+2023-12-28T15:25:38.910+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 10. Connection.getAutoCommit() returned true
+2023-12-28T15:55:02.610+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection closed. {executed in 6ms} 
+2023-12-28T15:55:02.610+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 4. Connection.close() returned 
+2023-12-28T15:55:02.700+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 11. Connection opened. {executed in 96ms} 
+2023-12-28T15:55:02.700+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 11. Connection.new Connection returned 
+2023-12-28T15:55:02.700+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 11. Connection.isReadOnly() returned false
+2023-12-28T15:55:02.700+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 11. Connection.getAutoCommit() returned true
+2023-12-28T15:55:03.295+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection closed. {executed in 4ms} 
+2023-12-28T15:55:03.296+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 5. Connection.close() returned 
+2023-12-28T15:55:03.340+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 12. Connection opened. {executed in 49ms} 
+2023-12-28T15:55:03.341+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 12. Connection.new Connection returned 
+2023-12-28T15:55:03.341+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 12. Connection.isReadOnly() returned false
+2023-12-28T15:55:03.341+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 12. Connection.getAutoCommit() returned true
+2023-12-28T15:55:06.788+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection closed. {executed in 5ms} 
+2023-12-28T15:55:06.788+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 1. Connection.close() returned 
+2023-12-28T15:55:06.834+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 13. Connection opened. {executed in 51ms} 
+2023-12-28T15:55:06.835+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 13. Connection.new Connection returned 
+2023-12-28T15:55:06.835+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 13. Connection.isReadOnly() returned false
+2023-12-28T15:55:06.835+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 13. Connection.getAutoCommit() returned true
+2023-12-28T15:55:09.119+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection closed. {executed in 1ms} 
+2023-12-28T15:55:09.119+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 2. Connection.close() returned 
+2023-12-28T15:55:09.167+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 14. Connection opened. {executed in 49ms} 
+2023-12-28T15:55:09.167+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 14. Connection.new Connection returned 
+2023-12-28T15:55:09.168+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 14. Connection.isReadOnly() returned false
+2023-12-28T15:55:09.168+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 14. Connection.getAutoCommit() returned true
+2023-12-28T15:55:10.183+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection closed. {executed in 4ms} 
+2023-12-28T15:55:10.183+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 10. Connection.close() returned 
+2023-12-28T15:55:10.229+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 15. Connection opened. {executed in 50ms} 
+2023-12-28T15:55:10.229+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 15. Connection.new Connection returned 
+2023-12-28T15:55:10.230+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 15. Connection.isReadOnly() returned false
+2023-12-28T15:55:10.230+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 15. Connection.getAutoCommit() returned true
+2023-12-28T15:55:23.405+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection closed. {executed in 3ms} 
+2023-12-28T15:55:23.407+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 7. Connection.close() returned 
+2023-12-28T15:55:23.454+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 16. Connection opened. {executed in 51ms} 
+2023-12-28T15:55:23.454+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 16. Connection.new Connection returned 
+2023-12-28T15:55:23.454+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 16. Connection.isReadOnly() returned false
+2023-12-28T15:55:23.454+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 16. Connection.getAutoCommit() returned true
+2023-12-28T15:55:25.535+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection closed. {executed in 4ms} 
+2023-12-28T15:55:25.535+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 6. Connection.close() returned 
+2023-12-28T15:55:25.581+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 17. Connection opened. {executed in 50ms} 
+2023-12-28T15:55:25.581+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 17. Connection.new Connection returned 
+2023-12-28T15:55:25.581+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 17. Connection.isReadOnly() returned false
+2023-12-28T15:55:25.581+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 17. Connection.getAutoCommit() returned true
+2023-12-28T15:55:26.085+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection closed. {executed in 1ms} 
+2023-12-28T15:55:26.085+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 9. Connection.close() returned 
+2023-12-28T15:55:26.121+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 18. Connection opened. {executed in 37ms} 
+2023-12-28T15:55:26.121+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 18. Connection.new Connection returned 
+2023-12-28T15:55:26.121+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 18. Connection.isReadOnly() returned false
+2023-12-28T15:55:26.121+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 18. Connection.getAutoCommit() returned true
+2023-12-28T15:55:29.917+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection closed. {executed in 4ms} 
+2023-12-28T15:55:29.917+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 3. Connection.close() returned 
+2023-12-28T15:55:29.956+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 19. Connection opened. {executed in 43ms} 
+2023-12-28T15:55:29.956+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 19. Connection.new Connection returned 
+2023-12-28T15:55:29.956+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 19. Connection.isReadOnly() returned false
+2023-12-28T15:55:29.956+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 19. Connection.getAutoCommit() returned true
+2023-12-28T15:55:35.082+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection closed. {executed in 4ms} 
+2023-12-28T15:55:35.083+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 8. Connection.close() returned 
+2023-12-28T15:55:35.127+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 20. Connection opened. {executed in 48ms} 
+2023-12-28T15:55:35.127+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 20. Connection.new Connection returned 
+2023-12-28T15:55:35.128+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 20. Connection.isReadOnly() returned false
+2023-12-28T15:55:35.128+09:00  INFO 19728 --- [HikariPool-1 connection adder] log4jdbc.log4j2                          : 20. Connection.getAutoCommit() returned true
+2023-12-28T16:11:02.494+09:00  INFO 19728 --- [RMI TCP Connection(54)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-28T16:11:02.509+09:00  INFO 19728 --- [RMI TCP Connection(54)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-28T16:11:02.511+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 11. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.511+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 11. Connection.close() returned 
+2023-12-28T16:11:02.512+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 12. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.512+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 12. Connection.close() returned 
+2023-12-28T16:11:02.513+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 13. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.513+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 13. Connection.close() returned 
+2023-12-28T16:11:02.514+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 14. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.514+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 14. Connection.close() returned 
+2023-12-28T16:11:02.515+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 15. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.515+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 15. Connection.close() returned 
+2023-12-28T16:11:02.516+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 16. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.516+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 16. Connection.close() returned 
+2023-12-28T16:11:02.517+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 17. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.517+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 17. Connection.close() returned 
+2023-12-28T16:11:02.518+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 18. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.518+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 18. Connection.close() returned 
+2023-12-28T16:11:02.519+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 19. Connection closed. {executed in 1ms} 
+2023-12-28T16:11:02.519+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 19. Connection.close() returned 
+2023-12-28T16:11:02.519+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 20. Connection closed. {executed in 0ms} 
+2023-12-28T16:11:02.520+09:00  INFO 19728 --- [HikariPool-1 connection closer] log4jdbc.log4j2                          : 20. Connection.close() returned 
+2023-12-28T16:11:02.520+09:00  INFO 19728 --- [RMI TCP Connection(54)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

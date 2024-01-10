@@ -22,6 +22,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Member implements UserDetails{
+	enum Auhority{
+		ADMIN,HR,MN
+	};
 	private String userId;
 	private String password;
 	private String name;

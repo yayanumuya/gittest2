@@ -60,13 +60,17 @@ public class ViewTestController {
 		
 		return "index";
 	}
-	
+//	
 	@GetMapping("/test")
 	public String test() {
 		return "user/test";
 	}
 	
-	
+	@GetMapping("/test2")
+	@ResponseBody
+	public String test2(String data) {
+		return data+"왔어 왔어";
+	}
 //	
 //	@GetMapping("/board/boardlist")
 //	public String boardmain() {

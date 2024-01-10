@@ -13,9 +13,11 @@ import com.bs.firstboot.model.dao.MemberDao;
 import com.bs.firstboot.model.dto.Member;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 @Component
 @RequiredArgsConstructor
+@Slf4j
 public class DBConnectionProvider 
 					implements AuthenticationProvider{
 
@@ -23,9 +25,9 @@ public class DBConnectionProvider
 	private BCryptPasswordEncoder encoder
 				=new BCryptPasswordEncoder();
 	
-	
 	@Override
 	public Authentication authenticate(Authentication authentication) throws AuthenticationException {
+		log.debug("로그인 인증처리하기");
 		String userId=authentication.getName();
 		String password=(String)authentication.getCredentials();
 		
