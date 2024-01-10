@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>추가추가</h2>
+	<p th:text="안녕하세요"></p>
+	<h3 th:text="${name}"></h3>
+	<a th:href="@{/test}" >요청주소설정</a>
+	<a th:href="@{/members/{id}(id=${name})}" >요청주소설정</a>
+	<div th:object="${member}">
+		<h4 th:text="|이름 : *{name}|"></h4>
+		<h4 th:text="|나이 : *{age}|"></h4>
+		<h4 th:text="|주소 : *{address}|"></h4>
+		<h4 th:text="|성별 : *{gender}|"></h4>
+		<span th:if="*{gender=='M'}">남</span>
+	</div>
+	<h3>팀원</h3>
+	<ul th:each="t:${team}">
+		<li th:text="${t}"></li>
+	</ul>
+	<input type="text" id="data">
+	<script>
+		document.querySelector("#data")
+			.addEventListener("keyup",(()=>{
+			let requestFunc;
+			return e=>{
+				if(requestFunc){
+					clearTimeout(requestFunc);
+				}
+				requestFunc=setTimeout(()=>{
+					fetch("/test?data="+e.target.value)
+					.then(result=>result.text())
+					.then(data=>{
+						console.log(data);	
+					});
+				},1000);
+			}
+		})());
+		
+		
+	</script>
+	
+</body>
+</html>

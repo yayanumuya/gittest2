@@ -1,0 +1,69 @@
+server: 
+  port: 9090
+#server.port=9090
+
+#spring.datasource.driver-class-name
+spring: 
+  datasource: 
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    #driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    #url: jdbc:log4jdbc:oracle:thin:@14.36.141.71:8877:xe
+    username: spring
+    password: spring
+    hikari : 
+      maximum-pool-size: 10
+      minimum-idle: 5
+      auto-commit: false
+      
+  thymeleaf:
+    enabled: true
+# spring.mvc.view.prfix/suffix    
+  mvc: 
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/views/   
+# mutlipartfile설정하기
+  servlet:
+    multipart:
+      max-file-size: 10MB  
+#mybatis: 
+#  mapper-locations: classpath:mappers/**/*.xml
+#  config-location: classpath:config/mybatis-config.xml
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: teacherdev09@gmail.com
+    password: hknwvdbhdmlhdmgx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            
+logging:
+  file: 
+    name: logs/springboot.log
+  level:
+    '[com.bs.firstboot]': debug
+    '[jdbc.sqlonly]': OFF
+    '[jdbc.sqltiming]': INFO
+    '[jdbc.resultsettable]': INFO
+    '[jdbc.audit]': OFF
+    '[jdbc.resultset]': OFF
+    '[jdbc.connection]': OFF
+#사용자가 지정한 내용
+linux: 
+  home: /home/goodee
+  url: 14.36.141.71:1234
+  
+#환경변수의 값을 불러와 저장
+window:
+  javahome: ${JAVA_HOME} 
+    
+
+
+
+
+           
